@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VIPERBuilder_Example' do
+  pod 'VIPERBuilder', :path => '../'
+
+  target 'VIPERBuilder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
