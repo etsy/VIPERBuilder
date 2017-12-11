@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
       :tag => "v#{s.version}"
   }
   s.authors	 = 'Etsy'
-  s.homepage	 = 'https://www.etsy.com'
+  s.homepage	 = 'https://github.com/etsy/VIPERBuilder'
   s.source_files = "VIPERBuilder/Classes/*.{h,m,swift}"
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
