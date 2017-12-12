@@ -1,7 +1,7 @@
 # VIPERBuilder
 ![](https://img.shields.io/badge/platform-ios-lightgrey.svg)
 ![](https://img.shields.io/badge/swift-4.0-brightgreen.svg)
-![](https://img.shields.io/badge/test%20coverage-100%25-brightgreen.svg)
+[![Build Status](https://travis-ci.org/etsy/VIPERBuilder.svg?branch=master)](https://travis-ci.org/etsy/VIPERBuilder)
 
 Scaffolding for building apps in a clean way with VIPER architecture ([what is VIPER?](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.us2szxd78)).
 
