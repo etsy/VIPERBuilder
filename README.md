@@ -5,7 +5,11 @@
 [![codecov.io](http://codecov.io/github/etsy/VIPERBuilder/branch/master/graphs/badge.svg)](http://codecov.io/github/etsy/VIPERBuilder)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1729/badge)](https://bestpractices.coreinfrastructure.org/projects/1729)
 
-Scaffolding for building apps in a clean way with VIPER architecture ([what is VIPER?](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.us2szxd78)).
+Scaffolding for building apps in a clean way with VIPER architecture.
+
+- [What is VIPER?](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.us2szxd78).
+- [How does Etsy use VIPER?](https://codeascraft.com/2017/12/11/viper-on-ios-at-etsy/)
+- [Check out VIPERBuilder on FLOSSWeekly](https://twit.tv/shows/floss-weekly/episodes/476?autostart=false)
 
 VIPER inherently has a few problems:
 
