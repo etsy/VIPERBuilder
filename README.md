@@ -1,6 +1,6 @@
 # VIPERBuilder
 ![](https://img.shields.io/badge/platform-ios-lightgrey.svg)
-![](https://img.shields.io/badge/swift-4.0-brightgreen.svg)
+![](https://img.shields.io/badge/swift-4.1-brightgreen.svg)
 [![Build Status](https://travis-ci.org/etsy/VIPERBuilder.svg?branch=master)](https://travis-ci.org/etsy/VIPERBuilder)
 [![codecov.io](http://codecov.io/github/etsy/VIPERBuilder/branch/master/graphs/badge.svg)](http://codecov.io/github/etsy/VIPERBuilder)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1729/badge)](https://bestpractices.coreinfrastructure.org/projects/1729)
