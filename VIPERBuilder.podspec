@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VIPERBuilder"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Scaffolding for building apps in a clean way with VIPER architecture"
   s.platform     = :ios, "8.0"
   s.source       = {
