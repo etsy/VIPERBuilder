@@ -27,8 +27,6 @@
 		D82823C61F9F907A00BD5619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82823BF1F9F907900BD5619 /* ViewController.swift */; };
 		D82823C71F9F907A00BD5619 /* DemoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82823C01F9F907900BD5619 /* DemoInteractor.swift */; };
 		D82823C81F9F907A00BD5619 /* DemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82823C11F9F907A00BD5619 /* DemoViewModel.swift */; };
-		D82823CE1F9F90AB00BD5619 /* VIPERBuilderObjCBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82823CA1F9F90AB00BD5619 /* VIPERBuilderObjCBaseTests.m */; };
-		D82823CF1F9F90AB00BD5619 /* VIPERBuilderObjCCustomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82823CB1F9F90AB00BD5619 /* VIPERBuilderObjCCustomTests.m */; };
 		D82823D01F9F90AB00BD5619 /* VIPERBuilderBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82823CC1F9F90AB00BD5619 /* VIPERBuilderBaseTests.swift */; };
 		D82823D11F9F90AB00BD5619 /* VIPERBuilderCustomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82823CD1F9F90AB00BD5619 /* VIPERBuilderCustomTests.swift */; };
 /* End PBXBuildFile section */
@@ -74,8 +72,6 @@
 		D82823C01F9F907900BD5619 /* DemoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoInteractor.swift; sourceTree = "<group>"; };
 		D82823C11F9F907A00BD5619 /* DemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewModel.swift; sourceTree = "<group>"; };
 		D82823C91F9F90AA00BD5619 /* VIPERBuilder_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIPERBuilder_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
-		D82823CA1F9F90AB00BD5619 /* VIPERBuilderObjCBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPERBuilderObjCBaseTests.m; sourceTree = "<group>"; };
-		D82823CB1F9F90AB00BD5619 /* VIPERBuilderObjCCustomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPERBuilderObjCCustomTests.m; sourceTree = "<group>"; };
 		D82823CC1F9F90AB00BD5619 /* VIPERBuilderBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERBuilderBaseTests.swift; sourceTree = "<group>"; };
 		D82823CD1F9F90AB00BD5619 /* VIPERBuilderCustomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERBuilderCustomTests.swift; sourceTree = "<group>"; };
 		DC03049F5A61B54CF5B8D221 /* Pods_VIPERBuilder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERBuilder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,8 +174,6 @@
 			children = (
 				D82823CC1F9F90AB00BD5619 /* VIPERBuilderBaseTests.swift */,
 				D82823CD1F9F90AB00BD5619 /* VIPERBuilderCustomTests.swift */,
-				D82823CA1F9F90AB00BD5619 /* VIPERBuilderObjCBaseTests.m */,
-				D82823CB1F9F90AB00BD5619 /* VIPERBuilderObjCCustomTests.m */,
 				D82823C91F9F90AA00BD5619 /* VIPERBuilder_Tests-Bridging-Header.h */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -394,8 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82823CF1F9F90AB00BD5619 /* VIPERBuilderObjCCustomTests.m in Sources */,
-				D82823CE1F9F90AB00BD5619 /* VIPERBuilderObjCBaseTests.m in Sources */,
 				D82823D01F9F90AB00BD5619 /* VIPERBuilderBaseTests.swift in Sources */,
 				D82823D11F9F90AB00BD5619 /* VIPERBuilderCustomTests.swift in Sources */,
 			);

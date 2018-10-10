@@ -11,7 +11,6 @@
 #endif
 
 #import "VIPERBuilder.h"
-#import "VIPERBuilderObjC.h"
 #import "VIPERObjects.h"
 
 FOUNDATION_EXPORT double VIPERBuilderVersionNumber;

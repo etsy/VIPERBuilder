@@ -22,11 +22,17 @@
 import UIKit
 
 open class VIPERBuilder<I: VIPERInteractor, P: VIPERPresenter, R: VIPERRouter>: NSObject {
-    public let interactor = I()
-    public let presenter = P()
-    public let router = R()
+    public let interactor: I
+    public let presenter: P
+    public let router: R
     
-    public init(controller: UIViewController) {
+    public init(interactor: I = I(),
+                presenter: P = P(),
+                router: R = R(),
+                controller: UIViewController) {
+        self.interactor = interactor
+        self.presenter = presenter
+        self.router = router
         super.init()
         
         VIPERBuilder.setupVIPER(controller: controller,
