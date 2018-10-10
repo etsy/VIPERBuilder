@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39E44E4544B8EDA34D30CA3C5B38F714 /* VIPERBuilder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F0CE85DD00F19A4096B85206D4748F /* VIPERBuilder-dummy.m */; };
 		4181B0B08A3F87DDA4888D45FFD14C09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		513F108C5A996BDD7790D61D5140A6B0 /* Pods-VIPERBuilder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A238595920E80713D046136BB97D83F1 /* Pods-VIPERBuilder_Tests-dummy.m */; };
-		551CBC7AEF5A5CAA5FDA261CD34C0737 /* VIPERBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3A0A69C80415A74D26FC41B37C0DE /* VIPERBuilder.swift */; };
-		589AB54012952423C3F4208E6121E8BD /* VIPERBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6245DF7C3FA56872634FA4A5B42C78BE /* VIPERBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80DF14E3291E7CFB0AB16E6138C02A36 /* VIPERObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBF99107004DD469D108F9B3807C6D /* VIPERObjects.m */; };
 		8245FB74A30298AB5A6FE37FA9014161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A303E243DB61A113F0BFBA5A6B6299DE /* VIPERBuilder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F5EAB7D65FE2E20F73D288D196D5BC /* VIPERBuilder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C211B4CEC2367F1FBBB3E42443FC2F3 /* VIPERObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = D195565FE6DD63CBFFFFC1D1FDF5C66E /* VIPERObjects.m */; };
+		955810CD762C12C13E8E51AECC892FBB /* VIPERBuilder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1C50484B74218316143706AE3E38CB /* VIPERBuilder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A623656D544F470EF6DA9C96ECC3FE38 /* Pods-VIPERBuilder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CF7CF02E465E20031E8762A5442717 /* Pods-VIPERBuilder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9FB746763156C2ADC7F987A97EB67D8 /* Pods-VIPERBuilder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 990DAC0582633A818DEAAA959C745B58 /* Pods-VIPERBuilder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B722D6C352FCDB960A763ECC7CFA9C26 /* VIPERObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B20425F1C56B79F240FD3D9F1521EA /* VIPERObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49DC64499738251B6F1C24D36406D21 /* Pods-VIPERBuilder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CAD75659F371612F08C2797994AF40 /* Pods-VIPERBuilder_Example-dummy.m */; };
+		C5A0D15CD038F54EB7DB0D76C28CD617 /* VIPERBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 222895E7DE44A6B5976248A2FE75D293 /* VIPERBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C97913782AE2EB83CD397BC4CC56FA1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDFEB8E9650E6207D54DAA9E5496CC29 /* VIPERBuilder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057A4419192D2B0A9EF41CD48F9A48DC /* VIPERBuilder-dummy.m */; };
+		D00FCD22CD3978FEA81C667115213E05 /* VIPERBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE18D5428B10DB897247CFD83D20F169 /* VIPERBuilder.swift */; };
+		EB76B6B865FF8555B9D2920F5F29935C /* VIPERObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5A5500DD8031A12320F5E14915FDC3 /* VIPERObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,42 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06B20425F1C56B79F240FD3D9F1521EA /* VIPERObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIPERObjects.h; path = VIPERBuilder/Classes/VIPERObjects.h; sourceTree = "<group>"; };
-		06C6FEFBC7FBB473FFC59DDA8C06ED6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057A4419192D2B0A9EF41CD48F9A48DC /* VIPERBuilder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIPERBuilder-dummy.m"; sourceTree = "<group>"; };
 		11D13CE241BF6555500CFC0CF39305A3 /* Pods-VIPERBuilder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIPERBuilder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C96787FB8F4365626E34F9A6CDDA0E6 /* Pods-VIPERBuilder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERBuilder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		28F0CE85DD00F19A4096B85206D4748F /* VIPERBuilder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIPERBuilder-dummy.m"; sourceTree = "<group>"; };
+		222895E7DE44A6B5976248A2FE75D293 /* VIPERBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIPERBuilder.h; path = VIPERBuilder/Classes/VIPERBuilder.h; sourceTree = "<group>"; };
+		2787B6A6576A742FB9EB0818D7FD81B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2E1D3AC52883AAA6A0D9C8920A5E9D77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E2613D9B063EA1754863D866554FBAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D5A791477165CD12724EFDAE98A01E /* Pods-VIPERBuilder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERBuilder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		49CF7CF02E465E20031E8762A5442717 /* Pods-VIPERBuilder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPERBuilder_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A14B7CEC6298A956A58D4DA982E7915 /* Pods-VIPERBuilder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERBuilder_Example-resources.sh"; sourceTree = "<group>"; };
-		4CCBF99107004DD469D108F9B3807C6D /* VIPERObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIPERObjects.m; path = VIPERBuilder/Classes/VIPERObjects.m; sourceTree = "<group>"; };
-		4DF88B798E2F46731CD65DC0D8F2EF15 /* VIPERBuilder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIPERBuilder.xcconfig; sourceTree = "<group>"; };
-		54A3A0A69C80415A74D26FC41B37C0DE /* VIPERBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VIPERBuilder.swift; path = VIPERBuilder/Classes/VIPERBuilder.swift; sourceTree = "<group>"; };
-		6245DF7C3FA56872634FA4A5B42C78BE /* VIPERBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIPERBuilder.h; path = VIPERBuilder/Classes/VIPERBuilder.h; sourceTree = "<group>"; };
+		4E1C50484B74218316143706AE3E38CB /* VIPERBuilder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIPERBuilder-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74F5EAB7D65FE2E20F73D288D196D5BC /* VIPERBuilder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIPERBuilder-umbrella.h"; sourceTree = "<group>"; };
 		76CAD75659F371612F08C2797994AF40 /* Pods-VIPERBuilder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIPERBuilder_Example-dummy.m"; sourceTree = "<group>"; };
 		7F1D9FDDBC7F9D9DE460A5AB69D8CA5F /* Pods-VIPERBuilder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERBuilder_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		836D2F1663638D76745F8B190146EC33 /* VIPERBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIPERBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9761986F9423A12BE5201E80ABF8715F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		80BA7676DA61443E685FA74803110B52 /* VIPERBuilder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIPERBuilder.xcconfig; sourceTree = "<group>"; };
+		836D2F1663638D76745F8B190146EC33 /* VIPERBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VIPERBuilder.framework; path = VIPERBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFC4D3849D371A866F6CB7C9C463967 /* VIPERBuilder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIPERBuilder-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		990DAC0582633A818DEAAA959C745B58 /* Pods-VIPERBuilder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPERBuilder_Example-umbrella.h"; sourceTree = "<group>"; };
+		9E5A5500DD8031A12320F5E14915FDC3 /* VIPERObjects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIPERObjects.h; path = VIPERBuilder/Classes/VIPERObjects.h; sourceTree = "<group>"; };
 		A238595920E80713D046136BB97D83F1 /* Pods-VIPERBuilder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIPERBuilder_Tests-dummy.m"; sourceTree = "<group>"; };
 		A9F111967C9086B7A10C1024581F7AE7 /* Pods-VIPERBuilder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIPERBuilder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABB9101551314B3E0AF5CD07723D5C6C /* Pods-VIPERBuilder_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERBuilder_Tests-resources.sh"; sourceTree = "<group>"; };
 		AC26852403BB714C9190770A8D16E1DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE18D5428B10DB897247CFD83D20F169 /* VIPERBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VIPERBuilder.swift; path = VIPERBuilder/Classes/VIPERBuilder.swift; sourceTree = "<group>"; };
 		B45712D824F76F339A6E4720DC4388C0 /* Pods-VIPERBuilder_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERBuilder_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BC8EEE0A067A854E525D38609997D283 /* VIPERBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VIPERBuilder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C02CF5D8C23788C2EBBFE4B3A1EACE05 /* Pods-VIPERBuilder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERBuilder_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C1B5AD22672856AAD2F921F056497F12 /* Pods_VIPERBuilder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERBuilder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3D065AAB60CC125A7AE46BFAE4A3C66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1B5AD22672856AAD2F921F056497F12 /* Pods_VIPERBuilder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIPERBuilder_Example.framework; path = "Pods-VIPERBuilder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA8B02B3353108B8AA1D112B2D5439F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D195565FE6DD63CBFFFFC1D1FDF5C66E /* VIPERObjects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIPERObjects.m; path = VIPERBuilder/Classes/VIPERObjects.m; sourceTree = "<group>"; };
 		D4862CBBE58D7280B5203FA73B98F808 /* Pods-VIPERBuilder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIPERBuilder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4EEE120194AA9B409149846B9D6CADF /* Pods-VIPERBuilder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VIPERBuilder_Tests.modulemap"; sourceTree = "<group>"; };
-		D526A0B25F6BC2170706BEA5BFED1636 /* VIPERBuilder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VIPERBuilder.modulemap; sourceTree = "<group>"; };
-		D6F6CC851CAF86B2E4D7744E90E1BB67 /* Pods_VIPERBuilder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERBuilder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F6CC851CAF86B2E4D7744E90E1BB67 /* Pods_VIPERBuilder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIPERBuilder_Tests.framework; path = "Pods-VIPERBuilder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D746AD3A008A25D80AB091320F233BA6 /* Pods-VIPERBuilder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VIPERBuilder_Example.modulemap"; sourceTree = "<group>"; };
-		E2B3A022E52D575A4CF9BB0967668768 /* VIPERBuilder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIPERBuilder-prefix.pch"; sourceTree = "<group>"; };
+		DAF9974DCF18E621626836365E23D0D8 /* VIPERBuilder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VIPERBuilder.modulemap; sourceTree = "<group>"; };
+		E15C9A773CD2FCB1CCD30D60C08E2A9B /* VIPERBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = VIPERBuilder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3408EB7224F573AD4BD00E8C1E83717 /* Pods-VIPERBuilder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIPERBuilder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F9E2632C7D07BB2B0AC79E95B1DE556D /* Pods-VIPERBuilder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERBuilder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +108,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F3E3B63B5E4A8F11CE83D2AF707FBBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E2613D9B063EA1754863D866554FBAB /* Info.plist */,
+				DAF9974DCF18E621626836365E23D0D8 /* VIPERBuilder.modulemap */,
+				80BA7676DA61443E685FA74803110B52 /* VIPERBuilder.xcconfig */,
+				057A4419192D2B0A9EF41CD48F9A48DC /* VIPERBuilder-dummy.m */,
+				8EFC4D3849D371A866F6CB7C9C463967 /* VIPERBuilder-prefix.pch */,
+				4E1C50484B74218316143706AE3E38CB /* VIPERBuilder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VIPERBuilder";
+			sourceTree = "<group>";
+		};
 		27B96B4A84265BF0EAD68F14036AE4A6 /* Pods-VIPERBuilder_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,15 +149,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		78160D1FFDF94E55830F57FB4FAD558B /* VIPERBuilder */ = {
+		38B92361DB400C7D0A6386BC99F0EB97 /* VIPERBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				6245DF7C3FA56872634FA4A5B42C78BE /* VIPERBuilder.h */,
-				54A3A0A69C80415A74D26FC41B37C0DE /* VIPERBuilder.swift */,
-				06B20425F1C56B79F240FD3D9F1521EA /* VIPERObjects.h */,
-				4CCBF99107004DD469D108F9B3807C6D /* VIPERObjects.m */,
-				BEB8C6A1F3FC8A4454B6BA46CDA38EA4 /* Pod */,
-				EC6714B21A49569B2C27B06FD5CB385D /* Support Files */,
+				222895E7DE44A6B5976248A2FE75D293 /* VIPERBuilder.h */,
+				AE18D5428B10DB897247CFD83D20F169 /* VIPERBuilder.swift */,
+				9E5A5500DD8031A12320F5E14915FDC3 /* VIPERObjects.h */,
+				D195565FE6DD63CBFFFFC1D1FDF5C66E /* VIPERObjects.m */,
+				A69E3548A41DCB465D5B7B650C444307 /* Pod */,
+				1F3E3B63B5E4A8F11CE83D2AF707FBBD /* Support Files */,
 			);
 			name = VIPERBuilder;
 			path = ../..;
@@ -153,7 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CEC97EC678BF1E841B549E1765330E75 /* Development Pods */,
+				BA303EE5894D9D82553A7C72BEC441F5 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A45A602536AD22BC9D9607694C523A39 /* Products */,
 				38985916B88C633D65B11C2F1A51E0A1 /* Targets Support Files */,
@@ -170,22 +184,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A69E3548A41DCB465D5B7B650C444307 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2787B6A6576A742FB9EB0818D7FD81B6 /* LICENSE */,
+				2E1D3AC52883AAA6A0D9C8920A5E9D77 /* README.md */,
+				E15C9A773CD2FCB1CCD30D60C08E2A9B /* VIPERBuilder.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA303EE5894D9D82553A7C72BEC441F5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38B92361DB400C7D0A6386BC99F0EB97 /* VIPERBuilder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BEB8C6A1F3FC8A4454B6BA46CDA38EA4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9761986F9423A12BE5201E80ABF8715F /* LICENSE */,
-				C3D065AAB60CC125A7AE46BFAE4A3C66 /* README.md */,
-				BC8EEE0A067A854E525D38609997D283 /* VIPERBuilder.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CD2A4B985E1DCE06C3313A2CB93BE6DD /* Pods-VIPERBuilder_Example */ = {
@@ -206,14 +228,6 @@
 			path = "Target Support Files/Pods-VIPERBuilder_Example";
 			sourceTree = "<group>";
 		};
-		CEC97EC678BF1E841B549E1765330E75 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				78160D1FFDF94E55830F57FB4FAD558B /* VIPERBuilder */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,23 +236,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EC6714B21A49569B2C27B06FD5CB385D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				06C6FEFBC7FBB473FFC59DDA8C06ED6E /* Info.plist */,
-				D526A0B25F6BC2170706BEA5BFED1636 /* VIPERBuilder.modulemap */,
-				4DF88B798E2F46731CD65DC0D8F2EF15 /* VIPERBuilder.xcconfig */,
-				28F0CE85DD00F19A4096B85206D4748F /* VIPERBuilder-dummy.m */,
-				E2B3A022E52D575A4CF9BB0967668768 /* VIPERBuilder-prefix.pch */,
-				74F5EAB7D65FE2E20F73D288D196D5BC /* VIPERBuilder-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VIPERBuilder";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3941819299F268345AC3DE331CDC6BF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955810CD762C12C13E8E51AECC892FBB /* VIPERBuilder-umbrella.h in Headers */,
+				C5A0D15CD038F54EB7DB0D76C28CD617 /* VIPERBuilder.h in Headers */,
+				EB76B6B865FF8555B9D2920F5F29935C /* VIPERObjects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6B860945D5536B72FF0A815D2F2B3A44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,16 +265,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A04EEDC890345234C372B9C05E373BFF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A303E243DB61A113F0BFBA5A6B6299DE /* VIPERBuilder-umbrella.h in Headers */,
-				589AB54012952423C3F4208E6121E8BD /* VIPERBuilder.h in Headers */,
-				B722D6C352FCDB960A763ECC7CFA9C26 /* VIPERObjects.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -272,9 +272,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5BBAA71591E59DAD004564B386CBD3 /* Build configuration list for PBXNativeTarget "VIPERBuilder" */;
 			buildPhases = (
-				7ADFDD2D55367412F0D8209508DE4E0E /* Sources */,
+				EF2EC04C9BFBAAD987FA9F9CDF6B6027 /* Sources */,
 				C61BB374D06C90FAC3AB45F1731F0C0E /* Frameworks */,
-				A04EEDC890345234C372B9C05E373BFF /* Headers */,
+				3941819299F268345AC3DE331CDC6BF0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -328,7 +328,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -350,16 +350,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7ADFDD2D55367412F0D8209508DE4E0E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39E44E4544B8EDA34D30CA3C5B38F714 /* VIPERBuilder-dummy.m in Sources */,
-				551CBC7AEF5A5CAA5FDA261CD34C0737 /* VIPERBuilder.swift in Sources */,
-				80DF14E3291E7CFB0AB16E6138C02A36 /* VIPERObjects.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1AAC82D4FCDE39CB06FA9BD68A528EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,6 +363,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				513F108C5A996BDD7790D61D5140A6B0 /* Pods-VIPERBuilder_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2EC04C9BFBAAD987FA9F9CDF6B6027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFEB8E9650E6207D54DAA9E5496CC29 /* VIPERBuilder-dummy.m in Sources */,
+				D00FCD22CD3978FEA81C667115213E05 /* VIPERBuilder.swift in Sources */,
+				8C211B4CEC2367F1FBBB3E42443FC2F3 /* VIPERObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +430,7 @@
 		};
 		610B84FFF4B1E60B33E43955E857B7E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DF88B798E2F46731CD65DC0D8F2EF15 /* VIPERBuilder.xcconfig */;
+			baseConfigurationReference = 80BA7676DA61443E685FA74803110B52 /* VIPERBuilder.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -462,7 +462,7 @@
 		};
 		72F1EBCACB8E0AC9177485E77FA7D9BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DF88B798E2F46731CD65DC0D8F2EF15 /* VIPERBuilder.xcconfig */;
+			baseConfigurationReference = 80BA7676DA61443E685FA74803110B52 /* VIPERBuilder.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -645,7 +645,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

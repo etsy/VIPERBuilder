@@ -1,5 +1,5 @@
 PODS:
-  - VIPERBuilder (1.0.2)
+  - VIPERBuilder (2.0.0)
 
 DEPENDENCIES:
   - VIPERBuilder (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VIPERBuilder: 41324ccf6b89d4a3898c9a858abdfd872e570959
+  VIPERBuilder: 090b9839c6c36bc61f6dfef2e7405a9f53ec0868
 
 PODFILE CHECKSUM: 6d555225451863b096644335d50b71fe818d90a9
 
