@@ -26,10 +26,10 @@ open class VIPERBuilder<I: VIPERInteractor, P: VIPERPresenter, R: VIPERRouter>: 
     public let presenter: P
     public let router: R
     
-    public init(interactor: I = I(),
+    public init(controller: UIViewController,
+                interactor: I = I(),
                 presenter: P = P(),
-                router: R = R(),
-                controller: UIViewController) {
+                router: R = R()) {
         self.interactor = interactor
         self.presenter = presenter
         self.router = router
