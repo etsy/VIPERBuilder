@@ -30,17 +30,10 @@ Run `pod install`
 1. Create subclasses of `VIPERInteractor`, `VIPERPresenter` and `VIPERRouter` as needed
 2. Create a strong reference to an instance of `VIPERBuilder` with the new subclasses specified. Lazy loading in Swift will ensure that the builder object is available as soon as it is called
 
-Swift
-
 	lazy var viperBuilder: VIPERBuilder<NewInteractor, NewPresenter, NewRouter> = {
 	    return VIPERBuilder(controller: self)
 	}()
 
-Objective C
-
-    self.viperBuilder = [[VIPERBuilderObjc alloc] initWithInterator:[NewInteractor class] presenter:[NewPresenter class] router:[NewRouter class] controller:self];
-    
-	
 Note: If not all classes are needed for the implementation passing the superclass to the Builder object is supported
 
 For a more detailed implementation, please check out the demo project included in this repo

@@ -14,14 +14,12 @@
 		589AB54012952423C3F4208E6121E8BD /* VIPERBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6245DF7C3FA56872634FA4A5B42C78BE /* VIPERBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80DF14E3291E7CFB0AB16E6138C02A36 /* VIPERObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBF99107004DD469D108F9B3807C6D /* VIPERObjects.m */; };
 		8245FB74A30298AB5A6FE37FA9014161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		840E2878853C6386B1BE3830790F3A57 /* VIPERBuilderObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BF557CE15E892916CE03C28888638C /* VIPERBuilderObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A303E243DB61A113F0BFBA5A6B6299DE /* VIPERBuilder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F5EAB7D65FE2E20F73D288D196D5BC /* VIPERBuilder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A623656D544F470EF6DA9C96ECC3FE38 /* Pods-VIPERBuilder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49CF7CF02E465E20031E8762A5442717 /* Pods-VIPERBuilder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9FB746763156C2ADC7F987A97EB67D8 /* Pods-VIPERBuilder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 990DAC0582633A818DEAAA959C745B58 /* Pods-VIPERBuilder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B722D6C352FCDB960A763ECC7CFA9C26 /* VIPERObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B20425F1C56B79F240FD3D9F1521EA /* VIPERObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49DC64499738251B6F1C24D36406D21 /* Pods-VIPERBuilder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CAD75659F371612F08C2797994AF40 /* Pods-VIPERBuilder_Example-dummy.m */; };
 		C97913782AE2EB83CD397BC4CC56FA1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E8E8C0657EC66F76CA9159617E1C3A46 /* VIPERBuilderObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 903FF2D22F4939F53DDEAA179732DFBE /* VIPERBuilderObjC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +45,6 @@
 		11D13CE241BF6555500CFC0CF39305A3 /* Pods-VIPERBuilder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIPERBuilder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C96787FB8F4365626E34F9A6CDDA0E6 /* Pods-VIPERBuilder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERBuilder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		28F0CE85DD00F19A4096B85206D4748F /* VIPERBuilder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIPERBuilder-dummy.m"; sourceTree = "<group>"; };
-		30BF557CE15E892916CE03C28888638C /* VIPERBuilderObjC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIPERBuilderObjC.h; path = VIPERBuilder/Classes/VIPERBuilderObjC.h; sourceTree = "<group>"; };
 		46D5A791477165CD12724EFDAE98A01E /* Pods-VIPERBuilder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERBuilder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		49CF7CF02E465E20031E8762A5442717 /* Pods-VIPERBuilder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPERBuilder_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4A14B7CEC6298A956A58D4DA982E7915 /* Pods-VIPERBuilder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERBuilder_Example-resources.sh"; sourceTree = "<group>"; };
@@ -60,7 +57,6 @@
 		76CAD75659F371612F08C2797994AF40 /* Pods-VIPERBuilder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIPERBuilder_Example-dummy.m"; sourceTree = "<group>"; };
 		7F1D9FDDBC7F9D9DE460A5AB69D8CA5F /* Pods-VIPERBuilder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERBuilder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		836D2F1663638D76745F8B190146EC33 /* VIPERBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIPERBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		903FF2D22F4939F53DDEAA179732DFBE /* VIPERBuilderObjC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIPERBuilderObjC.m; path = VIPERBuilder/Classes/VIPERBuilderObjC.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9761986F9423A12BE5201E80ABF8715F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		990DAC0582633A818DEAAA959C745B58 /* Pods-VIPERBuilder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPERBuilder_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -144,8 +140,6 @@
 			children = (
 				6245DF7C3FA56872634FA4A5B42C78BE /* VIPERBuilder.h */,
 				54A3A0A69C80415A74D26FC41B37C0DE /* VIPERBuilder.swift */,
-				30BF557CE15E892916CE03C28888638C /* VIPERBuilderObjC.h */,
-				903FF2D22F4939F53DDEAA179732DFBE /* VIPERBuilderObjC.m */,
 				06B20425F1C56B79F240FD3D9F1521EA /* VIPERObjects.h */,
 				4CCBF99107004DD469D108F9B3807C6D /* VIPERObjects.m */,
 				BEB8C6A1F3FC8A4454B6BA46CDA38EA4 /* Pod */,
@@ -267,7 +261,6 @@
 			files = (
 				A303E243DB61A113F0BFBA5A6B6299DE /* VIPERBuilder-umbrella.h in Headers */,
 				589AB54012952423C3F4208E6121E8BD /* VIPERBuilder.h in Headers */,
-				840E2878853C6386B1BE3830790F3A57 /* VIPERBuilderObjC.h in Headers */,
 				B722D6C352FCDB960A763ECC7CFA9C26 /* VIPERObjects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +356,6 @@
 			files = (
 				39E44E4544B8EDA34D30CA3C5B38F714 /* VIPERBuilder-dummy.m in Sources */,
 				551CBC7AEF5A5CAA5FDA261CD34C0737 /* VIPERBuilder.swift in Sources */,
-				E8E8C0657EC66F76CA9159617E1C3A46 /* VIPERBuilderObjC.m in Sources */,
 				80DF14E3291E7CFB0AB16E6138C02A36 /* VIPERObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
