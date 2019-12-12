@@ -15,9 +15,9 @@ class DemoCell: UICollectionViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(label)
         
-        let horizConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-[label]-|", options: NSLayoutFormatOptions.init(rawValue: 0), metrics: nil, views: ["label": label])
+        let horizConstraints = NSLayoutConstraint.constraints(withVisualFormat: "H:|-[label]-|", options: NSLayoutConstraint.FormatOptions.init(rawValue: 0), metrics: nil, views: ["label": label])
         NSLayoutConstraint.activate(horizConstraints)
-        let vertConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label]-|", options: NSLayoutFormatOptions.init(rawValue: 0), metrics: nil, views: ["label": label])
+        let vertConstraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label]-|", options: NSLayoutConstraint.FormatOptions.init(rawValue: 0), metrics: nil, views: ["label": label])
         NSLayoutConstraint.activate(vertConstraints)
     }
     
